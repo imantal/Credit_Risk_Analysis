@@ -60,8 +60,8 @@ Figure 4:  Undersampling algorithm
 
 <div align="justify">   
   
-Similar to the previous section, the model performance was evaluated using the balanced accuracy score, confusion matrix and the imbalanced classification report as shown in Figure 5 
-The cluster centroid undersampling algorithm showed a relatively low accuracy score of 53% which is lower than the ones observed with the oversampling algorithms discussed in previous section. The model performed poorly in dealing with the minority class (high-risk loans) with low F1 score of 0.01 which is mainly due to the low precision score of 0.01.  The recall score of 0.61 indicates that 39% of the high-risk loans were falsely predicted as low-risk loans. On the other hand, the model showed relatively a better performance dealing with the low-risk loans with precision score of 1.00 and F1 score of 0.62. Overall, the performance of the oversampling techniques discussed in the previous section was better than the undersampling technique. 
+Similar to the previous section, the model performance was evaluated using the balanced accuracy score, confusion matrix and the imbalanced classification report as shown in Figure 5. 
+The cluster centroid undersampling algorithm showed a relatively low accuracy score of 53% which is lower than the ones observed with the oversampling algorithms discussed in previous section. The model performed poorly in dealing with the minority class (high-risk loans) with low F1 score of 0.01 which is mainly due to the low precision score of 0.01. The recall score of 0.61 indicates that 39% of the high-risk loans were falsely predicted as low-risk loans. On the other hand, the model showed relatively a better performance dealing with the low-risk loans with precision score of 1.00 and F1 score of 0.62. Overall, the performance of the oversampling techniques discussed in the previous section was better than the undersampling technique. 
 
  <div align="center">  
   
